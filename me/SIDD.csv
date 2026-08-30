@@ -1,0 +1,15 @@
+Category,Subcategory,Institution_Company_Project,Location_Link,Date_Duration,Score_Details
+Personal Information,Name,Siddharth Chakraborty,"Pune, Maharashtra, India",,Email: siddharth.c4198@gmail.com | Phone: +91 9420553919 | GitHub: github.com/Siddharth-devx7
+Education,Bachelor of Technology (B.Tech),Pimpri-Chinchwad University,"Mohitewadi, Pune, India",In Progress,Completed First Year with a CGPA of 8.95/10.0
+Education,Higher Secondary Education (10+2),Maharashtra State Board,Science Stream,Completed 2025,
+Education,Secondary School Certificate (10th),Central Board of Secondary Education (CBSE),,Completed 2023,
+Professional Experience,Full Stack Development Intern,Samartha Mauli Healthcare LLP,,Recent,"Built and optimized responsive web applications; Integrated frontend layouts with secure backends; Software testing, debugging, and production deployments; Enhanced UI/UX designs."
+Projects,Online Examination & Assessment Platform,Arseck.in,Live Project • Website: arseck.in,,Secure and automatic evaluation; Google Authentication; Supabase & MongoDB; Automated parsing module for CSV to MCQs; Browser focus/tab violation auto-submit security; Hosted on GoDaddy.
+Projects,Personal Automation Assistant,Desktop Assistant,Python Core Modules / Open-Code Architecture,In Development,"Focused on task automation, modular configurations, and data parsing workflow layouts; API integration system for third-party environments."
+Technical Skills,Programming & Scripting,"C (Procedural), C++ (OOP), HTML5, CSS3",,,
+Technical Skills,Databases & Cloud Storage,"Supabase, MongoDB",,,
+Technical Skills,Workflow & Dev Tools,"Git, GitHub, Vercel, GoDaddy Hosting",,,
+Technical Skills,Methodologies,"Rapid Prototyping, Systems Design, Testing & Debugging",,,
+Honors & Certifications,Academic Excellence,First-year undergraduate CGPA of nearly 9.0,,,
+Honors & Certifications,Production Deployment,Engineered and launched live web platform Arseck.in,,,
+Honors & Certifications,Professional Internship & Certificate,Samartha Mauli Healthcare LLP,,,Awarded professional internship completion certificate

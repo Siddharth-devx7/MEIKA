@@ -1,0 +1,11 @@
+# Secrets -- NEVER commit your API key
+.env
+
+# Local run artifacts
+__pycache__/
+*.pyc
+.gradio/
+cache.json
+
+# Editor settings
+.vscode/
