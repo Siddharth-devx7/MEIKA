@@ -66,10 +66,10 @@ load_dotenv(override=True)
 
 BASE_URL = os.getenv("API_BASE_URL", "")
 API_KEY = os.environ.get("API_KEY", "").strip()
-MODEL = os.getenv("MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("MODEL", "gpt-5.2-chat")
 MODEL_POOL_ENV = os.getenv(
     "MODEL_POOL",
-    "gemini-2.5-flash,gemini-2.0-flash",
+    "gpt-5.2-chat,gpt-4.0-chat",
 )
 MAX_WORKERS = int(os.getenv("MAX_WORKERS", "1"))
 _HERE = os.path.dirname(os.path.abspath(__file__))
