@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: meika
+    runtime: python
+    repo: https://github.com/Siddharth-devx7/MEIKA
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python meika.py
+    healthCheckPath: /
+    envVars:
+      - key: API_BASE_URL
+        value: https://generativelanguage.googleapis.com/v1beta/openai/
+      - key: MODEL
+        value: gemini-2.5-flash
+      # API_KEY must be set as a secret in the Render dashboard (never in the repo)
