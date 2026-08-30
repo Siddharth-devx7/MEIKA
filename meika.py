@@ -525,7 +525,7 @@ def run_agent_simulation():
 # ------------------------------------------------------------------------------
 # 8. Single Gradio UI -- every feature in one app (one public link)
 # ------------------------------------------------------------------------------
-with gr.Blocks(theme=gr.themes.Soft(), title=f"MEIKA - AI Interactive Dashboard") as demo:
+with gr.Blocks( title=f"MEIKA - AI Interactive Dashboard") as demo:
     gr.Markdown(f"# 🤖 MEIKA -- AI Interactive Dashboard")
     gr.Markdown(f"Everything in one place: the {name} career alter-ego, quick model tests, "
                 f"and a multi-agent simulation. Running on **`{MODEL}`**.")
@@ -587,4 +587,4 @@ if __name__ == "__main__":
         port = int(os.getenv("PORT", "8080"))
         demo.launch(server_name="0.0.0.0", server_port=port, show_error=True)
     else:
-        demo.launch(share=True)
+        demo.launch(theme=gr.themes.Soft(),share=True)
