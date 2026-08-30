@@ -12,4 +12,5 @@ services:
         value: https://generativelanguage.googleapis.com/v1beta/openai/
       - key: MODEL
         value: gemini-2.5-flash
-      # API_KEY must be set as a secret in the Render dashboard (never in the repo)
+      - key: API_KEY
+        sync: false
