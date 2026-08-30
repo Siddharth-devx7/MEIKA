@@ -573,5 +573,10 @@ with gr.Blocks(theme=gr.themes.Soft(), title=f"MEIKA - AI Interactive Dashboard"
 # ------------------------------------------------------------------------------
 if __name__ == "__main__":
     print(f"Starting Gradio webserver... [{MODEL}]", flush=True)
-    # share=True -> a single public .gradio.live link is printed in the console.
-    demo.launch(share=True)
+    # Detects the Hugging Face Spaces runtime (env var set automatically by HF).
+    #  - On Spaces: bind to 0.0.0.0:7860 (the port HF exposes publicly), no tunnel.
+    #  - Locally:   share=True prints a temporary public .gradio.live link.
+    if os.getenv("SPACE_ID"):
+        demo.launch(server_name="0.0.0.0", server_port=7860, show_error=True)
+    else:
+        demo.launch(share=True)
